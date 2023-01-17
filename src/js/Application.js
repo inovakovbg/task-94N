@@ -24,9 +24,9 @@ export default class Application extends EventEmitter {
     // console.log(monkeyBanana);
     monkeyBanana.forEach((emoji) => {
       let div = document.getElementById("emojis");
-      let paragraph = document.createElement("p");
-      paragraph.textContent = monkeyBanana;
-      div.appendChild(paragraph);
+      let para = document.createElement("p");
+      para.textContent = monkeyBanana;
+      div.appendChild(para);
       // return monkeyBanana;
     });
   }
